@@ -46,7 +46,7 @@ jobs:
           name: dist
 
       - name: Deploy
-        uses: renat2006/github-pages-deploy-action@v4
+        uses: renat2006/shri_simple_template/github-pages-deploy-action@v4
         with:
           folder: 'dist'
 
