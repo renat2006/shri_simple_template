@@ -26,7 +26,6 @@
     "lint:css": "stylelint \"src/*.css\" --fix",
     "analyze": "webpack --json stats.json",
     "validate": "node_modules/.bin/statoscope validate -i stats.json --config=./statoscope.config.js",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
