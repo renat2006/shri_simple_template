@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     strategy:
@@ -32,7 +32,4 @@ jobs:
     - name: Build
       run: |
         npm run build
-    - name: Deploy
-      run: |
-        npm run deploy
 
