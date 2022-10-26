@@ -46,7 +46,7 @@ jobs:
           name: dist
 
       - name: Deploy
-        uses: renat2006/shri_simple_templaten@v4
+        uses: renat2006/shri_simple_template@v4
         with:
           folder: 'dist'
 
