@@ -48,5 +48,6 @@ jobs:
       - name: Deploy
         uses: renat2006/shri_simple_template@v4
         with:
+          branch: gh-pages
           folder: 'dist'
 
