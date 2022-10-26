@@ -5,7 +5,6 @@ permissions:
 jobs:
   deploy:
     concurrency: ci-${{ github.ref }}
-    needs: [build]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
